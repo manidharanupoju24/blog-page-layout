@@ -8,7 +8,7 @@ img{
 	width: 150px;
 	border-radius: 20px;
 	border: 5px solid white;
-	margin-top: 20px;
+	margin:20px 0px 0px 0px;
 
 }
 ul{
@@ -31,4 +31,20 @@ h1{
 a{
 	color:white;
 	font-size: 18px;
+}
+
+article{
+	max-width:500px;
+	padding:20px;
+	margin:0 auto;
+}
+
+@media (max-width:500px){
+	h1{
+		font-size:36px;
+	}
+	li{
+		display:block;
+		padding:5px;
+	}
 }
